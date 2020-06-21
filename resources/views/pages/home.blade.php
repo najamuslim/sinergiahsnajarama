@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <title>Home - Sinergia Homeschooling</title>
     @extends('layout.head')
 </head>
 
