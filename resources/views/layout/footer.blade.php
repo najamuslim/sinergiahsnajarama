@@ -76,10 +76,43 @@
     </div>
 
     <div class="footer-bottom">
-        <div class="container clearfix">
-            <p id="footer-info">
+        <div class="container clearfix align-content:center">
+            <p id="footer-info" class="fa">
                 Copyright 2016 Sinergia-Homeschooling.com. All Rights Reserved.
             </p>
+            <ul class="fa fa-icons">
+
+                <li class="fa fa-facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100010998673749" class="icon">&nbsp;&nbsp;
+                    </a>
+                </li>
+            
+                <li class="fa fa-twitter">
+                    <a href="https://twitter.com/sinergiajkt" class="icon">&nbsp;&nbsp;
+                </a>
+                </li>
+            
+                <li class="fa fa-instagram">
+                    <a href="https://www.instagram.com/sinergiaeducation/" class="icon">&nbsp;&nbsp;
+                    </a>
+                </li>
+                <li class="fa fa-youtube">
+                    <a href="https://www.youtube.com/watch?v=0a1Xs94Bxtg" class="icon">&nbsp;&nbsp;
+                    </a>
+                </li>
+            
+                <li class="fa fa-pinterest">
+                    <a href="https://id.pinterest.com/hrdsenayan12/" class="icon">&nbsp;&nbsp;
+                    </a>
+                </li>
+            
+                <li class="fa fa-linkedin">
+                    <a href="https://www.linkedin.com/company/sinergia-worldwide-education/" class="icon">&nbsp;&nbsp;
+                    </a>
+                </li>
+            
+            
+            </ul>
         </div>
     </div>
 </div>
