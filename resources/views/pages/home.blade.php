@@ -11,11 +11,9 @@
 
 @section('content')
 <div class="container">
-        <div class="col-md-8">
             <a href="https://bit.ly/sinergia_registration">
                 <img src="{{ asset('images/poster sinergia final-01.jpg') }}" alt="poster sinergia regsitration">
             </a>
-        </div>
 </div>
 
 @endsection
