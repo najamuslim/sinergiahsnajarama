@@ -35,7 +35,6 @@
         <div class="footer-section newsletters">
             <h4>NEWSLETTERS</h4>
             <p>Subscribe the newest information to your email.</p>
-            <br>
             <form>
                 <p><input type="text" class="form-control" value="First Name"></p>
                 <p><input type="text" class="form-control" value="Last Name"></p>
@@ -45,7 +44,7 @@
         </div>
     </div>
     <div class="footer-content part2">
-        
+
     </div>
 
     <div class="footer-bottom">
