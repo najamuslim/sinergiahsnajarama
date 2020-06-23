@@ -44,7 +44,35 @@
         </div>
     </div>
     <div class="footer-content part2">
-
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td rowspan="0">
+                        <a class="footer-brand" href="#">
+                            <img src="{{ asset('images/logo sinergia no backg.png') }}" alt="SINERGIA BESAR no background" width="98" height="96">
+                        </a>
+                    </td>
+                    <td style="color: #ffffff">
+                        SINERGIA WORLDWIDE EDUCATION
+                    </td>
+                    <td rowspan="0">
+                        <a class="footer-brand" href="#">
+                            <img src="{{ asset('images/CIE-logo.png') }}" alt="cambridge" width="300" height="107" style="background-color:white;text-align:mid;">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone : 021-57931911
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email : info@sinergiaeducation.com
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="footer-bottom">
