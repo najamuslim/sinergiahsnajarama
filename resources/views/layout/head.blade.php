@@ -21,6 +21,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <style type="text/css">
         .btn-like{
             display: block;
@@ -39,5 +40,6 @@
             -webkit-transition: 0.3s ease;
             transition: 0.3s ease;
         }
+        
     </style>
 </head>

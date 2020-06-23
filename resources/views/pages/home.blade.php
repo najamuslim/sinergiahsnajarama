@@ -7,7 +7,7 @@
 </head>
 
 <body>
-@extends('layout.header')
+@include('layout.header')
 
 @section('content')
 <div class="container">
@@ -17,9 +17,10 @@
         </div>
     </div>
 </div>
+
 @endsection
 
-@extends('layout.footer')
+@include('layout.footer')
 
 </body>
 
