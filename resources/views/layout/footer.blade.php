@@ -4,7 +4,7 @@
             <h4>Quick Links</h4>
             <ul class="menu list-unstyled">
                 <li class="menu-item">
-                    <a href="#">About</a>
+                    <a href="{{url('about')}}">About</a>
                 </li>
                 <li class="menu-item">
                     <a href="#">Contacts</a>
