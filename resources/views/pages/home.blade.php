@@ -1,6 +1,7 @@
 @extends('layout.app')
 <head>
-<title>Home - Sinergia Homeschooling</title>
+    <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
+    <title>Home - Sinergia Homeschooling</title>
 </head>
 @section('content')
 
