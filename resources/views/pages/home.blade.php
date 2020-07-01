@@ -1,9 +1,6 @@
 @extends('layout.app')
 <head>
-<<<<<<< HEAD
-    <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Home - Sinergia Homeschooling</title>
-=======
+<link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
 <title>Home - Sinergia Homeschooling</title>
 <style>
 .carousel-fade .carousel-item {
@@ -32,7 +29,6 @@
  transform: translate3d(0, 0, 0);
 }
 </style>
->>>>>>> master
 </head>
 
 @section('styles')
@@ -96,13 +92,10 @@
     </a>
 </div>
 
-<<<<<<< HEAD
-=======
 <script>
     $('.carousel').carousel({
         interval: 5000,
         pause: 'false'
     })
 </script>
->>>>>>> master
 @endsection
