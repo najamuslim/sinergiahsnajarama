@@ -99,19 +99,19 @@
 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{asset('images/s2.png')}}" alt="First slide">
+      <img class="d-block w-100 h-50" src="{{asset('images/s2.png')}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/s3.png')}}" alt="Second slide">
+      <img class="d-block w-100 h-50" src="{{asset('images/s3.png')}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/s4.png')}}" alt="Third slide">
+      <img class="d-block w-100 h-50" src="{{asset('images/s4.png')}}" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/s5.png')}}" alt="fourth slide">
+      <img class="d-block w-100 h-50" src="{{asset('images/s5.png')}}" alt="fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/s6.png')}}" alt="fifth slide">
+      <img class="d-block w-100 h-50" src="{{asset('images/s6.png')}}" alt="fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -126,7 +126,7 @@
 
 <div class="jumbotron" style="background: center; text-align: center;">
 <p style="text-align: left;">I am delighted that you have chosen to consider Sinergia as an education destination.&nbsp;This site will provide you with the information about Sinergia Worldwide Education programmes and services more flexible.&nbsp;Our education programmes and services aim to instill discipline, professional conduct, and an ethical attitude in the education environments.&nbsp;This balanced approach to study develops the student as a whole, both personally and professionally preparing them for life.&nbsp;I wish you luck with that choice in the full knowledge that you will not regret your decision to join in Sinergia Worldwide Education.</p>
-  <hr>
+  <hr style="background-color: gray">
   <p style="text-align: right;"><em><strong>Principal of Sinergia</strong></em></p>
 </div>
 

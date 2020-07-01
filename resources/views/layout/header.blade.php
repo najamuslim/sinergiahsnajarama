@@ -1,8 +1,8 @@
-<div class="top-header bg-info text-white" style="align-content: center; height: 30px; font-size:18px;">
-	<div class="container clearfix align-content:center">		
+<div class="top-header text-white" style="height: 30px; font-size:15px; background-color: #ffa216;">
+	<div class="container clearfix">		
 	<div id="et-info">
 			<span style="margin-top: 5px;" class="fa fa-phone"> 021-57931911 &nbsp;&nbsp;</span>
-				<a style="margin-top: 5px;" href="mailto:info@sinergiaeducation.com"><span class="fas fa-envelope text-white">  info@sinergiaeducation.com</span></a>
+				<a style="margin-top: 5px;" href="mailto:info@sinergiaeducation.com"><p class="fas fa-envelope text-white">  info@sinergiaeducation.com</p></a>
   
   <a href="https://www.facebook.com/profile.php?id=100010998673749" class="fa fa-facebook" 
   style="margin-right: 10px; margin-left: 20px; color: white;"> </a>
@@ -19,13 +19,8 @@
 </div>
 
 <div>
-<<<<<<< HEAD
-<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 20px; height:45px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:65px;"></a>
-=======
-<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="navbar-brand" href="{{url('home')}}"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:75px;"></a>
->>>>>>> e5e0abb1c3d7e0149fbcb394a7324b21ff662165
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 20px; height:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:210px;height:60px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
