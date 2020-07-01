@@ -60,12 +60,6 @@ form p{
     color: #ffffff;
 }
 
-<<<<<<< HEAD
-.container{
-    background-color: #19065e;
-    font-size: 100px;
-}
-=======
 .carousel-fade .carousel-item {
     opacity: 0;
     transition-duration: .6s;
@@ -91,4 +85,3 @@ form p{
     transform: translateX(0);
     transform: translate3d(0, 0, 0);
    }
->>>>>>> master
