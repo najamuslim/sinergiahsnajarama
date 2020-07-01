@@ -19,15 +19,20 @@
 </div>
 
 <div>
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 20px; height:45px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:65px;"></a>
+=======
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="navbar-brand" href="{{url('home')}}"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:75px;"></a>
+>>>>>>> e5e0abb1c3d7e0149fbcb394a7324b21ff662165
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="margin-left: 35px;">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{url('home')}}" style="margin-left: 35px;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{url('about')}}">About</a>

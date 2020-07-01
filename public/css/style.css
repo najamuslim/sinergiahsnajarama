@@ -28,6 +28,7 @@
 }
 .footer-content a:hover{
     color: #f96c00;
+    text-decoration: none;
 }
 .footer .footer-content .footer-section{
     flex:1;
