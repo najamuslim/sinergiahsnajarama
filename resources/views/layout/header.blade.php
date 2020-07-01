@@ -1,4 +1,4 @@
-<div class="top-header bg-info text-white" style="align-content: center; height: 30px; font-size:18px;">
+<div class="top-header fixed-top bg-info text-white" style="align-content: center; height: 30px; font-size:18px;">
 	<div class="container clearfix align-content:center">		
 	<div id="et-info">
 			<span style="margin-top: 5px;" class="fa fa-phone"> Phone: 021-57931911 | Mobile : 0822-6041-8532 / 0812-8769-3029</span>
@@ -16,8 +16,8 @@
   </div>
 </div>
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:75px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -58,4 +58,4 @@
     </ul>
   </div>
 </nav>
-
+</div>
