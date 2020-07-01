@@ -59,3 +59,8 @@ form p{
 .footer-content td{
     color: #ffffff;
 }
+
+.container{
+    background-color: #19065e;
+    font-size: 100px;
+}
