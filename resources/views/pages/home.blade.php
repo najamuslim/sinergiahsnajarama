@@ -2,6 +2,92 @@
 <head>
 <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
 <title>Home - Sinergia Homeschooling</title>
+<style>
+
+    #programmes{
+        background-color: #19065e;
+        padding: 54px 0;
+    }
+    #programmes .row_programmes{
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+        padding: 27px 0;
+    }
+    #programmes .row_programmes_1{
+        background: center;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 33px;
+    }
+    #programmes .row_programmes_2, #programmes .row_programmes_3{
+        text-align: center;
+        padding-top: 60px;
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .menu_programmes{
+        display:inline-block;
+        width: 20%;
+        background-position: center;
+        margin-bottom: 9.27%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .menu_programmes_1,
+    .menu_programmes_2,
+    .menu_programmes_4,
+    .menu_programmes_5{
+        margin-right: 5.5%;
+    }
+
+
+    .menu_programmes .btn-outline-light{
+        color: #2ea3f2;
+        width: 100%;
+        border-color: #2ea3f2;
+        letter-spacing: 1px;
+        font-size: 20px;
+        border: 2px solid;
+        position: relative;
+        padding: 0.3em 1em;
+        font-weight: 500;
+        line-height: 1.7em;
+        transition: all 0.2s;
+    }
+    .menu_programmes .btn-outline-light:hover{
+        color:#2ea3f2;
+        text-transform: none;
+        background-color: #19065e;
+        border-color: #19065e;
+        transition: all 0.2s;
+        content: "\35";
+
+    }
+
+    .btn_register{
+        padding-top: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn_register .btn-outline-light{
+        text-align: center;
+        width: 182px;
+        height: 48px;
+        color: #ffffff;
+        background: #ea1f00;
+        border-color: #ea1f00;
+        border-radius: 1px;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+</style>
 </head>
 
 @section('styles')
@@ -44,7 +130,7 @@
   <p style="text-align: right;"><em><strong>Principal of Sinergia</strong></em></p>
 </div>
 
-<div class="container" style="text-align: center;">
+<div class="container" style="text-align: center; padding:54px 0;">
     <a href="https://bit.ly/sinergia_registration" style="margin: 5px; margin-bottom: 5px;">        
         <img style="height: 35%; width: 25%;" src="{{ asset('images/postersinergia/poster sinergia kotak-02.jpg') }}" alt="poster sinergia regsitration">
     </a>
@@ -63,6 +149,38 @@
     <a href="https://bit.ly/sinergia_registration" style="margin: 5px; margin-bottom: 5px; margin-top: 10px;">        
         <img style="height: 35%; width: 25%;" src="{{ asset('images/postersinergia/poster sinergia kotak-07.jpg') }}" alt="poster sinergia regsitration">
     </a>
+</div>
+<div id="programmes">
+    <div class="row_programmes row_programmes_1">
+        PROGRAMMES
+    </div>
+    <div class="row_programmes row_programmes_2">
+        <div class="menu_programmes menu_programmes_1">
+            <button type="button" class="btn btn-outline-light">Preschool</button>
+        </div>
+        <div class="menu_programmes menu_programmes_2">
+            <button type="button" class="btn btn-outline-light">Kindergarten</button>
+        </div>
+        <div class="menu_programmes menu_programmes_3">
+            <button type="button" class="btn btn-outline-light">Primary</button>
+        </div>
+    </div>
+    <div class="row_programmes row_programmes_3">
+        <div class="menu_programmes menu_programmes_4">
+            <button type="button" class="btn btn-outline-light">Secondary</button>
+        </div>
+        <div class="menu_programmes menu_programmes_5">
+            <button type="button" class="btn btn-outline-light">O Level / IGCSE</button>
+        </div>
+        <div class="menu_programmes menu_programmes_6">
+            <button type="button" class="btn btn-outline-light">A / AS Level</button>
+        </div>
+    </div>
+    <div class="row_programmes row_programmes_4">
+        <div class="btn_register">
+            <button type="button" class="btn btn-outline-light">REGISTER NOW</button>
+        </div>
+    </div>
 </div>
 
 <script>
