@@ -1,4 +1,4 @@
-<div class="top-header text-white" style="height: 30px; font-size:15px; background-color: #ffa216;">
+<div class="top-header fixed-top text-white" style="height: 30px; font-size:15px; background-color: #ffa216;">
 	<div class="container clearfix">		
 	<div id="et-info">
 			<span style="margin-top: 5px;" class="fa fa-phone"> 021-57931911 &nbsp;&nbsp;</span>
@@ -19,7 +19,7 @@
 </div>
 
 <div>
-<nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 20px; height:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-top: 30px; height:70px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:210px;height:60px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
