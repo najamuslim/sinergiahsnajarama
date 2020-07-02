@@ -6,14 +6,13 @@
 
     #programmes{
         background-color: #19065e;
-        padding: 54px 0;
+        padding: 29px 0;
     }
     #programmes .row_programmes{
         position: relative;
         width: 80%;
-        max-width: 1080px;
+        max-width: 1174px;
         margin: auto;
-        padding: 27px 0;
     }
     #programmes .row_programmes_1{
         background: center;
@@ -21,6 +20,7 @@
         font-weight: bold;
         color: #ffffff;
         font-size: 33px;
+        padding: 0px 0;
     }
     #programmes .row_programmes_2, #programmes .row_programmes_3{
         text-align: center;
