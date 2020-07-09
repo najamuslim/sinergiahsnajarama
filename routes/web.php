@@ -24,3 +24,7 @@ Route::get('/about', function () {
 Route::get('/home', function () {
     return view('pages/home');
 });
+
+Route::get('/admission', function () {
+    return view('pages/admissionsinergiahomeschooling');
+});
