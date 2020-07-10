@@ -9,11 +9,12 @@
             background-color: #ea9400;
             padding: 2% 0;
             position: relative;
-            line-height: 1.9em;
+            line-height: 0.25em;
             margin-bottom: 0;
             font-weight: bold;
-            font-size: 38px;
+            font-size: 30px;
             font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
+            margin-top: 50px;
         }
         .imgadmission{
             padding: 29px 0;    
@@ -35,7 +36,7 @@
 
 
 <div class="headadmission">
-    <p>How to Register Sinergia Homeschooling</p>
+    <p style="margin-top: 45px; margin-left: 25px;">How to Register Sinergia Homeschooling</p>
 </div>
 <div class="imgadmission" style="text-align: center;">
     <img  src="{{ asset('images/admission.png') }}" alt="admission image">
