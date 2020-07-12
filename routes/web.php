@@ -28,3 +28,7 @@ Route::get('/home', function () {
 Route::get('/admission', function () {
     return view('pages/admissionsinergiahomeschooling');
 });
+
+Route::get('/pre-school', function () {
+    return view('pages/preschool');
+});

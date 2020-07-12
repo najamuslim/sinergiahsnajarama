@@ -30,6 +30,10 @@
             text-align: center;
             width: 8em;
         }
+        .btnadmission:hover{
+            color:#ffffff;
+            text-decoration:none;
+        }
     </style>
 </head>
 @section('content')
@@ -41,10 +45,8 @@
 <div class="imgadmission" style="text-align: center;">
     <img  src="{{ asset('images/admission.png') }}" alt="admission image">
 </div>
-<div class="container" style="text-align: center;">
-    <div class="btnadmission" data-icon="9">
-        JOIN NOW
-    </div>
+<div class="container">
+    <a class="btnadmission" href="https://bit.ly/sinergia_registration">JOIN NOW</a>
 </div>
 
 

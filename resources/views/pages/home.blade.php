@@ -156,7 +156,7 @@
     </div>
     <div class="row_programmes row_programmes_2">
         <div class="menu_programmes menu_programmes_1">
-            <button type="button" class="btn btn-outline-light">Preschool</button>
+            <a  class="btn btn-outline-light" href="{{url('pre-school')}}">Preschool</a>
         </div>
         <div class="menu_programmes menu_programmes_2">
             <button type="button" class="btn btn-outline-light">Kindergarten</button>
