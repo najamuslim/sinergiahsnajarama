@@ -40,3 +40,7 @@ Route::get('/kindergarten', function () {
 Route::get('/primary', function () {
     return view('pages/primary');
 });
+
+Route::get('/secondary-1', function () {
+    return view('pages/secondary-1');
+});

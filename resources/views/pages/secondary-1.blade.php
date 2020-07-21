@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Abaout Pre-School Programme - Sinergia Homeschooling</title>
+    <title>Home School Programme Secondary 1 Level - Sinergia Homeschooling</title>
     <style>
         .headprogrammespage{
             width: 100%;
@@ -98,15 +98,18 @@
 
 
 <div class="headprogrammespage">
-    <p style="margin-top: 45px; margin-left: 25px;">Pre-School</p>
+    <p style="margin-top: 45px; margin-left: 25px;">SCONDARY 1</p>
 </div>
 <div class="sectionprogrammespage">
     <div class="rowprogrammespage">
         <div class="rowprogrammespage1">
             <div class="textprogrammespage1">
                 <p>
-                    <strong>Sinergia Homeschooling Pre-School</strong>
-                    specially adjust to assist students between the age of 4 to 5 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
+                    Cambridge Secondary 1 is typically for learners aged 11 to 14 years. It builds on the foundations of Cambridge Primary, although it is not essential to have completed that stage before beginning Cambridge Secondary 1. Cambridge Secondary 1 develops learner skills and understanding in English, mathematics and science for the first three years of secondary education. It provides you with a flexible framework which you can use to develop a curriculum that is tailored to your needs.
+                </p>
+                <p>
+                    <strong>Sinergia Homeschooling Secondary 1</strong>
+                    specially adjust to assist students between the age of 11 to 14 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
                 </p>
                 <p>
                     Families usually choose independent school cause of some reason, such as dissatisfaction of the formal education which is available.
@@ -121,7 +124,7 @@
                 <ol>
                     <li>Tutorial at home for homeschooling students</li>
                     <li>The tutor visits regularly 3 times a week</li>
-                    <li>Students, parents, tutors, and academic counselors brainstorm and discuss about the schedules, make a deal about the schedules, subjects, tests, projects, and final examinations.</li>
+                    <li>Students, parents, tutors, and academic counselors brainstorm and discuss about the schedules, make a deal about the schedules, subjects, tests, projects, and final examinations.  </li>
                     <li>Available tests: Quiz, Midtest, Final test</li>
                 </ol>
                 <hr>
@@ -130,9 +133,9 @@
                 </div>
                 <div><hr></div>
                 <ul>
-                    <li>Writing</li>
-                    <li>Reading</li>
                     <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Science</li>
                 </ul>
             </div>
             <div class="btn-section-programmespage">

@@ -159,15 +159,15 @@
             <a  class="btn btn-outline-light" href="{{url('pre-school')}}">Preschool</a>
         </div>
         <div class="menu_programmes menu_programmes_2">
-            <a  class="btn btn-outline-light" href="{{url('kindergarten')}}">kindergarten</a>
+            <a  class="btn btn-outline-light" href="{{url('kindergarten')}}">Kindergarten</a>
         </div>
         <div class="menu_programmes menu_programmes_3">
-            <a  class="btn btn-outline-light" href="{{url('primary')}}">primary</a>
+            <a  class="btn btn-outline-light" href="{{url('primary')}}">Primary</a>
         </div>
     </div>
     <div class="row_programmes row_programmes_3">
         <div class="menu_programmes menu_programmes_4">
-            <button type="button" class="btn btn-outline-light">Secondary</button>
+            <a  class="btn btn-outline-light" href="{{url('secondary-1')}}">Secondary 1</a>
         </div>
         <div class="menu_programmes menu_programmes_5">
             <button type="button" class="btn btn-outline-light">O Level / IGCSE</button>

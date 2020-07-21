@@ -148,7 +148,7 @@
                             <li><a href="{{url('pre-school')}}">Pre-School Level</a></li>
                             <li><a href="{{url('kindergarten')}}">Kindergarten</a></li>
                             <li><a href="{{url('primary')}}">Primary</a></li>
-                            <li><a href="#">Secondary 1</a></li>
+                            <li><a href="{{url('secondary-1')}}">Secondary 1</a></li>
                             <li><a href="#">A / AS Level</a></li>
                             <li><a href="#">O Level / IGCSE</a></li>
                         </ul>
