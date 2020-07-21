@@ -173,7 +173,7 @@
             <button type="button" class="btn btn-outline-light">O Level / IGCSE</button>
         </div>
         <div class="menu_programmes menu_programmes_6">
-            <button type="button" class="btn btn-outline-light">A / AS Level</button>
+            <a  class="btn btn-outline-light" href="{{url('a-as-level')}}">A / AS Level</a>
         </div>
     </div>
     <div class="row_programmes row_programmes_4">

@@ -44,3 +44,7 @@ Route::get('/primary', function () {
 Route::get('/secondary-1', function () {
     return view('pages/secondary-1');
 });
+
+Route::get('/a-as-level', function () {
+    return view('pages/a-as-level');
+});

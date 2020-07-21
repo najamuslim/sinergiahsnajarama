@@ -98,7 +98,7 @@
 
 
 <div class="headprogrammespage">
-    <p style="margin-top: 45px; margin-left: 25px;">SCONDARY 1</p>
+    <p style="margin-top: 45px; margin-left: 25px;">SECONDARY 1</p>
 </div>
 <div class="sectionprogrammespage">
     <div class="rowprogrammespage">
@@ -107,6 +107,7 @@
                 <p>
                     Cambridge Secondary 1 is typically for learners aged 11 to 14 years. It builds on the foundations of Cambridge Primary, although it is not essential to have completed that stage before beginning Cambridge Secondary 1. Cambridge Secondary 1 develops learner skills and understanding in English, mathematics and science for the first three years of secondary education. It provides you with a flexible framework which you can use to develop a curriculum that is tailored to your needs.
                 </p>
+                <hr>
                 <p>
                     <strong>Sinergia Homeschooling Secondary 1</strong>
                     specially adjust to assist students between the age of 11 to 14 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
@@ -152,7 +153,7 @@
                             <li><a href="{{url('kindergarten')}}">Kindergarten</a></li>
                             <li><a href="{{url('primary')}}">Primary</a></li>
                             <li><a href="{{url('secondary-1')}}">Secondary 1</a></li>
-                            <li><a href="#">A / AS Level</a></li>
+                            <li><a href="{{url('a-as-level')}}">A / AS Level</a></li>
                             <li><a href="#">O Level / IGCSE</a></li>
                         </ul>
                     </div>
