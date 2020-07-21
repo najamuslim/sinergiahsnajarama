@@ -159,10 +159,10 @@
             <a  class="btn btn-outline-light" href="{{url('pre-school')}}">Preschool</a>
         </div>
         <div class="menu_programmes menu_programmes_2">
-            <button type="button" class="btn btn-outline-light">Kindergarten</button>
+            <a  class="btn btn-outline-light" href="{{url('kindergarten')}}">kindergarten</a>
         </div>
         <div class="menu_programmes menu_programmes_3">
-            <button type="button" class="btn btn-outline-light">Primary</button>
+            <a  class="btn btn-outline-light" href="{{url('primary')}}">primary</a>
         </div>
     </div>
     <div class="row_programmes row_programmes_3">

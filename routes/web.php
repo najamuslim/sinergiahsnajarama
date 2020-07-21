@@ -32,3 +32,11 @@ Route::get('/admission', function () {
 Route::get('/pre-school', function () {
     return view('pages/preschool');
 });
+
+Route::get('/kindergarten', function () {
+    return view('pages/kindergarten');
+});
+
+Route::get('/primary', function () {
+    return view('pages/primary');
+});

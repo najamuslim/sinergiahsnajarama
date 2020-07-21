@@ -20,7 +20,7 @@
 
 <div>
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-top: 30px; height:80px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-1.png') }}" style="width:210px;height:60px;"></a>
+  <a class="navbar-brand" href="{{url('home')}}"><img src="{{ asset('images/logo-1.png') }}" style="width:210px;height:60px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

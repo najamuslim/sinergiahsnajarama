@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Abaout Pre-School Programme - Sinergia Homeschooling</title>
+    <title>Home School Primary Level - Sinergia Homeschooling</title>
     <style>
         .headprogrammespage{
             width: 100%;
@@ -98,15 +98,15 @@
 
 
 <div class="headprogrammespage">
-    <p style="margin-top: 45px; margin-left: 25px;">Pre-School</p>
+    <p style="margin-top: 45px; margin-left: 25px;">PRIMARY</p>
 </div>
 <div class="sectionprogrammespage">
     <div class="rowprogrammespage">
         <div class="rowprogrammespage1">
             <div class="textprogrammespage1">
                 <p>
-                    <strong>Sinergia Homeschooling Pre-School</strong>
-                    specially adjust to assist students between the age of 4 to 5 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
+                    <strong>Sinergia Homeschooling Primary</strong>
+                    specially adjust to assist students between the age of 6 to 12 years old. The syllabus uses Cambridge Primary Curriculum. The purpose of this programs is developing individual aptitudes, interests, and challenges of your children with learning at home.
                 </p>
                 <p>
                     Families usually choose independent school cause of some reason, such as dissatisfaction of the formal education which is available.
@@ -130,9 +130,9 @@
                 </div>
                 <div><hr></div>
                 <ul>
-                    <li>Writing</li>
-                    <li>Reading</li>
                     <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Science</li>
                 </ul>
             </div>
             <div class="btn-section-programmespage">
