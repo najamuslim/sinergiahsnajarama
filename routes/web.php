@@ -48,3 +48,7 @@ Route::get('/secondary-1', function () {
 Route::get('/a-as-level', function () {
     return view('pages/a-as-level');
 });
+
+Route::get('/igcse', function () {
+    return view('pages/igcse');
+});

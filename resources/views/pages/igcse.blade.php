@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Abaout Pre-School Programme - Sinergia Homeschooling</title>
+    <title>Home School Programme IGCSE Level - Sinergia Homeschooling</title>
     <style>
         .headprogrammespage{
             width: 100%;
@@ -98,15 +98,22 @@
 
 
 <div class="headprogrammespage">
-    <p style="margin-top: 45px; margin-left: 25px;">Pre-School</p>
+    <p style="margin-top: 45px; margin-left: 25px;">O Level / IGCSE</p>
 </div>
 <div class="sectionprogrammespage">
     <div class="rowprogrammespage">
         <div class="rowprogrammespage1">
             <div class="textprogrammespage1">
                 <p>
-                    <strong>Sinergia Homeschooling Pre-School</strong>
-                    specially adjust to assist students between the age of 4 to 5 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
+                    Cambridge IGCSE is the world’s most popular international qualification for 14 to 16 year olds. It is recognised by leading universities and employers worldwide, and is an international passport to progression and success. Developed over 25 years ago, it is tried, tested and trusted by schools worldwide.
+                </p>
+                <p>
+                    GCE O Levels are designed for 14-16 years old and aim to prepare students for academic progression (such as A and AS Level study) and equip them with the skills necessary for employment. GCE O Levels have been designed specially for an international market and are sensitive to the needs of different countries. The qualifications are designed for students whose first language may not be English and this acknowledged throughout the examination process. The curriculum also allows teaching to be placed in a localised context, making it relevant in varying regions.
+                </p>
+                <hr>
+                <p>
+                    <strong>Sinergia Homeschooling O Level/IGCSE</strong>
+                    specially adjust to assist students between the age of 14 to 16 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
                 </p>
                 <p>
                     Families usually choose independent school cause of some reason, such as dissatisfaction of the formal education which is available.
@@ -129,10 +136,35 @@
                     <strong>Subjects</strong>
                 </div>
                 <div><hr></div>
+                <p>IGCSE</p>
                 <ul>
-                    <li>Writing</li>
-                    <li>Reading</li>
                     <li>Mathematics</li>
+                    <li>English as A Second Language</li>
+                    <li>First Language English</li>
+                    <li>English Literature</li>
+                    <li>Biology</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>Environmental Management</li>
+                    <li>Information and Communication Technology</li>
+                    <li>Business Studies</li>
+                    <li>Commerce</li>
+                    <li>Economics</li>
+                    <li>Accounting</li>
+                </ul>
+                <p>O Level</p>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>English Language</li>
+                    <li>English Literature</li>
+                    <li>Biology</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>Environmental Management</li>
+                    <li>Business Studies</li>
+                    <li>Commerce</li>
+                    <li>Economics</li>
+                    <li>Accounting</li>
                 </ul>
             </div>
             <div class="btn-section-programmespage">

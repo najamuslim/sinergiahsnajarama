@@ -170,7 +170,8 @@
             <a  class="btn btn-outline-light" href="{{url('secondary-1')}}">Secondary 1</a>
         </div>
         <div class="menu_programmes menu_programmes_5">
-            <button type="button" class="btn btn-outline-light">O Level / IGCSE</button>
+            <a  class="btn btn-outline-light" href="{{url('igcse')}}">O Level / IGCSE</a>
+
         </div>
         <div class="menu_programmes menu_programmes_6">
             <a  class="btn btn-outline-light" href="{{url('a-as-level')}}">A / AS Level</a>
