@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Abaout Pre-School Programme - Sinergia Homeschooling</title>
+    <title>About Pre-School Programme - Sinergia Homeschooling</title>
     <style>
         .headprogrammespage{
             width: 100%;

@@ -179,7 +179,7 @@
     </div>
     <div class="row_programmes row_programmes_4">
         <div class="btn_register">
-            <button type="button" class="btn btn-outline-light">REGISTER NOW</button>
+            <a href="https://bit.ly/sinergia_registration" type="button" class="btn btn-outline-light">REGISTER NOW</a>
         </div>
     </div>
 </div>
