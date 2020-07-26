@@ -50,7 +50,7 @@
 <body>
 <div id="app">
     @include('layout.header')
-        <main class="py-4">
+        <main class="py-4" style="padding-bottom: 0rem !important">
             @yield('content')
         </main>
     @include('layout.footer')

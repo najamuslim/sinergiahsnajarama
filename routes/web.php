@@ -52,3 +52,7 @@ Route::get('/a-as-level', function () {
 Route::get('/igcse', function () {
     return view('pages/igcse');
 });
+
+Route::get('/contact', function () {
+    return view('pages/contact');
+});
