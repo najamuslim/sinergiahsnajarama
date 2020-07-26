@@ -4,11 +4,11 @@
     <title>Contact Us and Get Your Information - Sinergia Education Homeschooling</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmDq65SQsC0bZiCwPpja7krLpYfae3StQ&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=key&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6KeNc3nMARx4QZSi5LIEgTBLG-OSAp6I&callback=initMap2&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=key&callback=initMap2&libraries=&v=weekly"
       defer
     ></script>
     <style>
