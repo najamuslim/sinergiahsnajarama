@@ -185,7 +185,10 @@
         <div class="row2_contact">
             <div class="column2_contact">
                 <div class="map0_contact">
-                    <div id="map1"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.8919818158017!2d106.79873055952152!3d-6.227863676620062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f148792410e3%3A0x361cde6a2c5dda14!2sSinergia%20Worldwide%20Education!5e0!3m2!1sen!2sus!4v1596421715545!5m2!1sen!2sus" 
+                    width="520" height="350" frameborder="0" style="border:0;" allowfullscreen="" 
+                    aria-hidden="false" tabindex="0">
+                </iframe>
                 </div>
             </div>
             <div class="column3_contact">
@@ -220,7 +223,10 @@
         <div class="row2_contact">
             <div class="column2_contact">
                 <div class="map0_contact">
-                    <div id="map2"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3957.683396368714!2d112.69664200000001!3d-7.27682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x515ea296a3184a66!2sSinergia%20Worldwide%20Education%20Surabaya%201!5e0!3m2!1sen!2sus!4v1596421118626!5m2!1sen!2sus" 
+                    width="520" height="350" frameborder="0" style="border:0;" allowfullscreen="" 
+                    aria-hidden="false" tabindex="0">
+                </iframe>
                 </div>
             </div>
             <div class="column3_contact">
