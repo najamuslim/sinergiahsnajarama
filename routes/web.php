@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +57,11 @@ Route::get('/igcse', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 });
+
+Route::get('/vue', function () {
+    return view('layout.vue');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
