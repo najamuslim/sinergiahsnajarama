@@ -13,7 +13,7 @@
             font-weight: bold;
             font-size: 30px;
             font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
-            margin-top: 50px;
+            margin-top: 95px;
         }
         .sectionprogrammespage{
             color: #666666;
@@ -98,7 +98,7 @@
 
 
 <div class="headprogrammespage">
-    <p style="margin-top: 45px; margin-left: 25px;">O Level / IGCSE</p>
+    <p style="margin-top: 45px; margin-left: 25px;">0 Level / IGCSE</p>
 </div>
 <div class="sectionprogrammespage">
     <div class="rowprogrammespage">

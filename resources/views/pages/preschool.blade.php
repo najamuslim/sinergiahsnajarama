@@ -13,7 +13,7 @@
             font-weight: bold;
             font-size: 30px;
             font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
-            margin-top: 50px;
+            margin-top: 95px;
         }
         .sectionprogrammespage{
             color: #666666;

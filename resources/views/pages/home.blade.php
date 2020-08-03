@@ -3,7 +3,6 @@
 <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
 <title>Home - Sinergia Homeschooling</title>
 <style>
-
     #programmes{
         background-color: #19065e;
         padding: 29px 0;
@@ -96,7 +95,8 @@
 
 @section('content')
 
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" 
+    data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="{{asset('images/s2.png')}}" alt="First slide">
@@ -150,7 +150,7 @@
         <img style="height: 35%; width: 25%;" src="{{ asset('images/postersinergia/poster sinergia kotak-07.jpg') }}" alt="poster sinergia regsitration">
     </a>
 </div>
-<div id="programmes">
+<div id="programmes" style="margin-bottom: 25px;">
     <div class="row_programmes row_programmes_1">
         PROGRAMMES
     </div>
