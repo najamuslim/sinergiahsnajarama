@@ -58,9 +58,18 @@ Route::get('/contact', function () {
     return view('pages/contact');
 });
 
+Route::get('/registration-form', function () {
+    return view('pages/registrationform');
+});
+
 Route::get('/vue', function () {
     return view('layout.vue');
 });
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
