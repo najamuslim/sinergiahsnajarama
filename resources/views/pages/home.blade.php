@@ -86,6 +86,98 @@
         text-transform: uppercase;
     }
 
+    .sectionprogrammespage{
+            color: #666666;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 2% 0;
+            
+        }
+        .rowprogrammespage{
+            padding: 0% 0;
+            margin: auto;
+            position: relative;
+            width: 80%;
+            font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
+            line-height: 1.9em;
+        }
+        .rowprogrammespage1, .rowprogrammespage2{
+            display: inline-table;
+        }
+        .rowprogrammespage1{
+            width: 74.25%;
+            margin-right: 3%;
+            height: 100%;
+        }
+        .rowprogrammespage2{
+            width: 21.75%;
+            height: 100%
+        }
+        .textprogrammespage1{
+            margin-bottom: 2.02%;
+        }
+        .textprogrammespage1 hr{
+            border-width: 1px;
+            border-style: inset;
+            overflow: hidden;
+            display: block;
+            unicode-bidi: isolate;
+            margin-block-start: 0.5em;
+            margin-block-end: 0.5em;
+            margin-inline-start: auto;
+            margin-inline-end: auto;
+        }
+        .btn-programmespage{
+            color: #ffffff;
+            background: #e09900;
+            border-color: #ffffff;
+            letter-spacing: 0px;
+            font-size: 24px;
+            display: inline-block;
+            position: relative;
+            padding: 0.3em 1.0em;
+        }
+        .btn-programmespage:hover{
+            color:#ffffff;
+            text-decoration:none;
+        }
+        .sidebar-programmespage{
+            padding-left: 30px;
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .menu-sidebar-programmespage{
+            margin-bottom: 13.186%;
+        }
+        .menu-sidebar-programmespage .menu-container ul{
+            padding: 0%;
+        }
+        .menu-sidebar-programmespage .menu-container ul li{
+            margin-bottom: 0.5em;
+            list-style: none;
+            
+        }
+        .menu-sidebar-programmespage .menu-container ul li a{
+            color: #666666;
+        }
+        .menu-sidebar-programmespage .menu-container ul li a:hover{
+            color: #f96c00;
+            text-decoration: none;
+        }
+
+        .card-aside{
+            display: flex;
+        }
+
+        .card-img{
+            align-self: flex-start;
+            size: 30%;
+        }
+
+        .card-body{
+            align-self: flex-end;
+            justify-content: space-between;
+            size: 70%;
+        }
 </style>
 </head>
 
@@ -185,6 +277,65 @@
         </div>
     </div>
 </div>
+
+
+<div class="sectionprogrammespage">
+    <div class="rowprogrammespage">
+        <div class="rowprogrammespage1">
+            <div class="textprogrammespage1">
+                <p>
+                    <strong>Sinergia Homeschooling Pre-School</strong>
+                    specially adjust to assist students between the age of 4 to 5 years old. The purpose of this perograms is developing individual aptitudes, interests, and challenges of your children with learning at home.
+                </p>
+                <p>
+                    Families usually choose independent school cause of some reason, such as dissatisfaction of the formal education which is available.
+                </p>
+                <hr>
+                <div>
+                    <strong>Methods</strong>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <ol>
+                    <li>Tutorial at home for homeschooling students</li>
+                    <li>The tutor visits regularly 3 times a week</li>
+                    <li>Students, parents, tutors, and academic counselors brainstorm and discuss about the schedules, make a deal about the schedules, subjects, tests, projects, and final examinations.</li>
+                    <li>Available tests: Quiz, Midtest, Final test</li>
+                </ol>
+                <hr>
+                <div>
+                    <strong>Subjects</strong>
+                </div>
+                <div><hr></div>
+                <ul>
+                    <li>Writing</li>
+                    <li>Reading</li>
+                    <li>Mathematics</li>
+                </ul>
+            </div>
+            <div class="btn-section-programmespage">
+                <a class="btn-programmespage" href="https://bit.ly/sinergia_registration">REGISTER NOW</a>
+            </div>
+        </div>
+        <div class="rowprogrammespage2">
+            <div class="sidebar-programmespage">
+                <div class="card-aside">
+                    <img class="card-img" src="{{ asset('images/wearehiring_teacher.png') }}" 
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">WE ARE HIRING TEACHER</h5>
+                        <p class="card-text">Jul 15, 2020</p>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script>
     $('.carousel').carousel({

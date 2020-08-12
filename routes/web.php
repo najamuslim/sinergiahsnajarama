@@ -62,10 +62,9 @@ Route::get('/registration-form', function () {
     return view('pages/registrationform');
 });
 
-Route::get('/vue', function () {
-    return view('layout.vue');
+Route::get('/news', function () {
+    return view('pages/news');
 });
-
 
 Auth::routes();
 
