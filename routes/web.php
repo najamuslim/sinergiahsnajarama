@@ -70,10 +70,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 Route::post('submit','RegistrantController@save');
 
 Route::get('/list-registrant', 'RegistrantController@getRegistrants')->name('pages/listregistrant');
