@@ -66,6 +66,10 @@ Route::get('/news', function () {
     return view('pages/news');
 });
 
+Route::get('/news-article-form', function () {
+    return view('pages/newsarticleform');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
