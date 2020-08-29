@@ -278,6 +278,8 @@
     </div>
 </div>
 
+<a style="margin: 10; width: auto; background-color: #ea9400; border-color: #ea9400;" href="{{url('registration-form')}}" type="button" class="btn btn-primary btn-lg btn-block">Registration Form</a>
+
 
 <div class="sectionprogrammespage" style="display: none;">
     <div class="rowprogrammespage">
