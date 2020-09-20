@@ -50,7 +50,12 @@
     <p style="margin-top: 45px; margin-left: 25px;">Create a new post</p>
 </div>
 <div class="container">
-        <div class="row">
+    <div class="form" style="text-align: center;">
+    <form method="POST" action="submit">
+            @csrf
+            <p>Title :<input type="text" name="title" class="form-control " placeholder="Title"></p>
+            <p>Description :<input type="text" name="Description" class="form-control " placeholder="Description"></p>
+            <p>Content :<div class="row">
             <div class="col-md-10 offset-1 mt-4">
                 <div class="card-body">
                     <form method="post" action="" enctype="multipart/form-data">
@@ -62,6 +67,18 @@
                 </div>
             </div>
         </div>
+            <p>Category :
+                <select name="category" required>
+                    <option value="" disabled selected>Select category</option>
+                    <option value="news">News</option>
+                    <option value="article">Article</option>
+                    <option value="article">Career</option>
+                </select>
+            </p>
+            <p>Published At :<input type="date" name="published_at"></p>
+            <button id="btn-regis" type="submit" class="btn btn-outline-warning">Submit</button>
+        </form>
+    </div>
 </div>
 <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 <script type="text/javascript">
