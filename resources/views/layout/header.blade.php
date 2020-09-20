@@ -31,7 +31,7 @@
 </div>
 
 <div>
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-top: 30px; height:120px; font-size: 1.5em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-top: 30px; height:120px; font-size: 1.3em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="navbar-brand" href="{{url('home')}}"><img src="{{ asset('images/logo-1.png') }}" style="width:230px;height:70px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
     <span class="navbar-toggler-icon"></span>
