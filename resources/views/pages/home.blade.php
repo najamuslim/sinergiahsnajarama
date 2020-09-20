@@ -191,19 +191,19 @@
     data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="{{asset('images/s2.png')}}" alt="First slide">
+      <img class="d-block w-100 h-150" src="{{asset('images/s2.png')}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-50" src="{{asset('images/s3.png')}}" alt="Second slide">
+      <img class="d-block w-100 h-150" src="{{asset('images/s3.png')}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-50" src="{{asset('images/s4.png')}}" alt="Third slide">
+      <img class="d-block w-100 h-150" src="{{asset('images/s4.png')}}" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-50" src="{{asset('images/s5.png')}}" alt="fourth slide">
+      <img class="d-block w-100 h-150" src="{{asset('images/s5.png')}}" alt="fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-50" src="{{asset('images/s6.png')}}" alt="fifth slide">
+      <img class="d-block w-100 h-150" src="{{asset('images/s6.png')}}" alt="fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -22,7 +22,12 @@ class AdminController extends Controller
     public function index()
     {
         $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
-        return view('admin.home', ['registrants'=>$registrants]);
+        return view('pages.home');
+    }
+
+    public function getRegistrants(){
+        $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
+        return view('admin.list-registrant', ['registrants'=>$registrants]);
     }
 
     /**

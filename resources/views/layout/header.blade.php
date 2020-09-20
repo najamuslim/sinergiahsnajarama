@@ -72,6 +72,34 @@
       <li class="nav-item" style="margin-left: 5px;">
         <a class="nav-link" href="{{url('contact')}}">Contact</a>
       </li>
+
+      @if (Auth::user())
+        <li class="nav-item dropdown" style="margin-left: 5px;">
+          <a id="navbarDropdown" class="nav-link 	fas fa-user-circle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+            <span class="dropdown-toggle" style="margin-left: 5px;"></span>
+          </a>
+
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <p style="text-align: center;">
+              Halo {{ Auth::user()->name }}!
+            </p>
+            <hr>
+            <a class="dropdown-item" href="{{ route('list-registrant') }}">
+              List Registrant
+            </a>
+            <a class="dropdown-item" href="{{ route('logout') }}"
+               onclick="event.preventDefault();
+                             document.getElementById('logout-form').submit();">
+                {{ __('Logout') }}
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+        </div>
+        </li>
+      @endif
+      
     </ul>
   </div>
 </nav>

@@ -76,6 +76,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('submit','RegistrantController@save');
 
-Route::get('/list-registrant', 'RegistrantController@getRegistrants')->name('pages/listregistrant');
+Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-registrant');
 
 Route::get('/admin', 'AdminController@index')->name('admin');

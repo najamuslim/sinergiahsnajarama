@@ -38,8 +38,4 @@ class RegistrantController extends Controller
         //return view('pages.registrationform');
     }
 
-    public function getRegistrants(){
-        $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
-        return view('admin.home', ['registrants'=>$registrants]);
-    }
 }

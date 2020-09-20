@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layout.app')
 
 @php
     /** @var \App\Registrant $registrants */
@@ -7,7 +7,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-15">
 
             @include('admin.list-registrant', $registrants)
             

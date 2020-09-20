@@ -1,4 +1,31 @@
-<div class="container">
+@extends('layout.app')
+<head>
+    <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
+    <title>List Registrant - Sinergia Homeschooling</title>
+    <style>
+        .headregistration{
+            width: 100%;
+            color: white;
+            background-color: #ea9400;
+            padding: 2% 0;
+            position: relative;
+            line-height: 0.25em;
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
+            margin-top: 95px;
+        }
+    </style>
+</head>
+@section('content')
+
+
+<div class="headregistration">
+    <p style="margin-top: 45px; margin-left: 25px;">List Registrant</p>
+</div>
+
+<div class="container" style="margin-top: 25px;">
     <table class="table">
         <thead class="thead-dark">
             <tr>
@@ -30,3 +57,5 @@
     {{ $registrants->links() }}
 
 </div>
+
+@endsection
