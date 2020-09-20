@@ -50,22 +50,28 @@
     <p style="margin-top: 45px; margin-left: 25px;">Create a new post</p>
 </div>
 <div class="container">
-    <div class="form" style="text-align: center;">
-    <form method="POST" action="submit">
-            @csrf
-            <p>Title :<input type="text" name="title" class="form-control " placeholder="Title"></p>
-            <p>Content :<textarea type="textarea" name="content" class="form-control" minlength="5" maxlength="2000" required rows="10" placeholder="Content"></textarea></p>
-            <p>Category :
-                <select name="category" required>
-                    <option value="" disabled selected>Select category</option>
-                    <option value="news">News</option>
-                    <option value="article">Article</option>
-                </select>
-            </p>
-            <button id="btn-regis" type="submit" class="btn btn-outline-warning">Submit</button>
-        </form>
-    </div>
+        <div class="row">
+            <div class="col-md-10 offset-1 mt-4">
+                <div class="card-body">
+                    <form method="post" action="" enctype="multipart/form-data">
+                        @csrf
+                        <div class="form-group">
+                            <textarea class="ckeditor form-control" name="wysiwyg-editor"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 </div>
-
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.ckeditor').ckeditor();
+    });
+    CKEDITOR.replace('wysiwyg-editor', {
+        filebrowserUploadUrl: "{{route('ckeditor.image-upload', ['_token' => csrf_token() ])}}",
+        filebrowserUploadMethod: 'form'
+    });
+</script>
 
 @endsection

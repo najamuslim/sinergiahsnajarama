@@ -79,3 +79,7 @@ Route::post('submit','RegistrantController@save');
 Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-registrant');
 
 Route::get('/admin', 'AdminController@index')->name('admin');
+
+//ckeditor
+Route::post('ckeditor/upload', 'CKEditorController@upload')->name('ckeditor.image-upload');
+
