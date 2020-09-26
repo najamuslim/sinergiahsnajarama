@@ -75,7 +75,6 @@
                     <option value="article">Career</option>
                 </select>
             </p>
-            <p>Published At :<input type="date" name="published_at"></p>
             <button id="btn-regis" type="submit" class="btn btn-outline-warning">Submit</button>
         </form>
     </div>
