@@ -1,0 +1,1 @@
+<p> {{ $content->id }}: {{ $content->long_description }}</p>

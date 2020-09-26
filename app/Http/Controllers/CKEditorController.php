@@ -24,8 +24,7 @@ class CKEditorController extends Controller
         }
     }
 
-    public function storeContent(Request $request)
-    {
+    public function storeContent(Request $request) {
       $input_data = $request->all();
       $content = new Content();    
       $content->title = $input_data['title'];
@@ -34,5 +33,10 @@ class CKEditorController extends Controller
       $content->category = $input_data['category'];
       $content->save();
       return back()->with('success', 'Your form has been submitted.');
+    }
+
+    public function showContent(Request $request, $id){
+      $content = Content::where('id',$id)->first();
+      return view('pages/show-content', compact('content'));
     }
 }
