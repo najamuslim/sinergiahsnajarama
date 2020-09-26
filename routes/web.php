@@ -66,6 +66,10 @@ Route::get('/news', function () {
     return view('pages/news');
 });
 
+Route::get('/article', function () {
+    return view('pages/article');
+});
+
 Route::get('/news-article-form', function () {
     return view('pages/newsarticleform');
 });

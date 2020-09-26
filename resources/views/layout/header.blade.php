@@ -66,7 +66,7 @@
       </li>
       
       <li class="nav-item" style="margin-left: 5px;">
-        <a class="nav-link" href="#">Article</a>
+        <a class="nav-link" href="{{url('article')}}">Article</a>
       </li>
       
       <li class="nav-item" style="margin-left: 5px;">
