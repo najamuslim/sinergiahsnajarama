@@ -1,1 +1,2 @@
-<p> {{ $content->id }}: {{ $content->long_description }}</p>
+
+{!! "$content->long_description" !!} 
