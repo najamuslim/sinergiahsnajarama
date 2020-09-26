@@ -51,19 +51,16 @@
 </div>
 <div class="container">
     <div class="form" style="text-align: center;">
-    <form method="POST" action="submit">
+    <form method="POST" action="{{ route('store.content') }}">
             @csrf
             <p>Title :<input type="text" name="title" class="form-control " placeholder="Title"></p>
-            <p>Description :<input type="text" name="Description" class="form-control " placeholder="Description"></p>
+            <p>Description :<input type="text" name="short_description" class="form-control " placeholder="Description"></p>
             <p>Content :<div class="row">
             <div class="col-md-10 offset-1 mt-4">
                 <div class="card-body">
-                    <form method="post" action="" enctype="multipart/form-data">
-                        @csrf
                         <div class="form-group">
                             <textarea class="ckeditor form-control" name="wysiwyg-editor"></textarea>
                         </div>
-                    </form>
                 </div>
             </div>
         </div>

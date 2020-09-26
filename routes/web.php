@@ -86,4 +86,4 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 
 //ckeditor
 Route::post('ckeditor/upload', 'CKEditorController@upload')->name('ckeditor.image-upload');
-
+Route::post('/save-content','CKEditorController@storeContent')->name('store.content');
