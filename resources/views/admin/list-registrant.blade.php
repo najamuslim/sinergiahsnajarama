@@ -26,6 +26,11 @@
 </div>
 
 <div class="container" style="margin-top: 25px;">
+    <div class="float-right">
+        <form action="{{url('list-registrant/export ')}}" enctype="multipart/form-data">
+            <button class="btn btn-info" type="submit">Export</button>
+        </form>
+    </div>
     <table class="table">
         <thead class="thead-dark">
             <tr>

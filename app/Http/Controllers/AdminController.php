@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Registrant;
+use App\Exports\RegistrantsExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class AdminController extends Controller
 {
@@ -28,6 +30,15 @@ class AdminController extends Controller
     public function getRegistrants(){
         $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
         return view('admin.list-registrant', ['registrants'=>$registrants]);
+    }
+
+    /**
+     * Export function
+     * https://www.mynotepaper.com/laravel-6-import-export-excel-with-heading-using-laravel-excel-31/
+     */
+    public function export()
+    {
+        return Excel::download(new RegistrantsExport(), 'Registrants.xlsx');
     }
 
     /**

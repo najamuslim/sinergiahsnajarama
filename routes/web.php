@@ -82,6 +82,8 @@ Route::post('submit','RegistrantController@save');
 
 Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-registrant');
 
+Route::get('list-registrant/export', 'AdminController@export');
+
 Route::get('/admin', 'AdminController@index')->name('admin');
 
 //ckeditor
