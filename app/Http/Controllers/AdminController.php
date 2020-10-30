@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Registrant;
+use App\Job;
+use App\WorkingArea;
 use App\Exports\RegistrantsExport;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -30,6 +32,62 @@ class AdminController extends Controller
     public function getRegistrants(){
         $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
         return view('admin.list-registrant', ['registrants'=>$registrants]);
+    }
+
+    public function job(){
+        $jobs = Job::orderBy('job_name')->paginate(25);
+        return view('admin.job', ['jobs'=>$jobs]);
+    }
+
+    public function saveJob(Request $req){
+        $this->validate($req, [
+            'job_name' => 'required',
+        ]);
+
+        $jobs = Job::orderBy('job_name')->paginate(25);
+
+        $jobData = new Job;
+        $jobData->job_name = $req->job_name;
+        $jobData->save();
+
+        return back()->with('success', 'Your form has been submitted.');
+    }
+
+    public function jobDestroy($id)
+    {
+        $job = Job::findOrFail($id);
+
+        $job->delete();
+    
+        return redirect('/job');
+    }
+
+    public function workingArea(){
+        $workingAreas = WorkingArea::orderBy('working_area_name')->paginate(25);
+        return view('admin.working-area', ['workingAreas'=>$workingAreas]);
+    }
+
+    public function saveWorkingArea(Request $req){
+        $this->validate($req, [
+            'working_area_name' => 'required',
+        ]);
+
+        $workingAreas = WorkingArea::orderBy('working_area_name')->paginate(25);
+
+        $workingAreaData = new WorkingArea;
+        $workingAreaData->working_area_name = $req->working_area_name;
+        $workingAreaData->save();
+
+        return back()->with('success', 'Your form has been submitted.');
+    }
+
+    public function workingAreaDestroy($id)
+    {
+        $workingArea = WorkingArea::findOrFail($id);
+
+        $workingArea->delete();
+    
+        return redirect('/working-area');
     }
 
     /**

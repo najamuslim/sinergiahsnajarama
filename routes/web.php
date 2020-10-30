@@ -84,6 +84,18 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('submit','RegistrantController@save');
 
+Route::post('submit-job','AdminController@saveJob');
+
+Route::get('/job', 'AdminController@job')->name('job');
+
+Route::delete('/job-destroy/{id}', 'AdminController@jobDestroy')->name('job-destroy');
+
+Route::post('submit-working-area','AdminController@saveWorkingArea');
+
+Route::get('/working-area', 'AdminController@workingArea')->name('working-area');
+
+Route::delete('/working-area-destroy/{id}', 'AdminController@workingAreaDestroy')->name('working-area-destroy');
+
 Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-registrant');
 
 Route::get('list-registrant/export', 'AdminController@export');
