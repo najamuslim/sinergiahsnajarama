@@ -100,6 +100,10 @@ Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-reg
 
 Route::get('list-registrant/export', 'AdminController@export');
 
+Route::get('/job-form', 'JobController@jobForm')->name('job-form');
+
+Route::post('submit-job-registrant','JobController@saveJobRegistrant');
+
 Route::get('/admin', 'AdminController@index')->name('admin');
 
 //ckeditor

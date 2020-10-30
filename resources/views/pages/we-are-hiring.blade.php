@@ -129,7 +129,7 @@
                 <img class="d-block w-100 h-150" src="{{asset('images/wearehiring_teacher.png')}}" alt="" width="519" height="519">
             </div>
             <div class="btn-section-programmespage" style="margin-top: 20px;">
-                <a class="btn-programmespage" href="https://bit.ly/2JxbXYW">APPLY NOW</a>
+                <a class="btn-programmespage" href="{{ url('job-form') }}">APPLY NOW</a>
             </div>
         </div>
     </div>

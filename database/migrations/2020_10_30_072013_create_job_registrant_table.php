@@ -15,6 +15,7 @@ class CreateJobRegistrantTable extends Migration
     {
         Schema::create('job_registrant', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->integer('id_job_position');
             $table->string('date_and_place_of_birth');
             $table->integer('id_last_education');
