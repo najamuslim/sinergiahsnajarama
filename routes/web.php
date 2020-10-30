@@ -98,7 +98,11 @@ Route::delete('/working-area-destroy/{id}', 'AdminController@workingAreaDestroy'
 
 Route::get('/list-registrant', 'AdminController@getRegistrants')->name('list-registrant');
 
+Route::get('/list-job-registrant', 'AdminController@getJobRegistrants')->name('list-job-registrant');
+
 Route::get('list-registrant/export', 'AdminController@export');
+
+Route::get('/download-cv/{id}', 'AdminController@downloadCV')->name('download-cv');
 
 Route::get('/job-form', 'JobController@jobForm')->name('job-form');
 

@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 use App\Registrant;
 use App\Job;
 use App\WorkingArea;
+use App\Education;
+use App\JobRegistrant;
+use App\MaritalStatus;
+use App\JobType;
+use App\WorkingAreaRegistrant;
 use App\Exports\RegistrantsExport;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -32,6 +37,17 @@ class AdminController extends Controller
     public function getRegistrants(){
         $registrants = Registrant::orderBy('created_at', 'desc')->paginate(25);
         return view('admin.list-registrant', ['registrants'=>$registrants]);
+    }
+
+    public function getJobRegistrants(){
+        $jobRegistrants = JobRegistrant::orderBy('created_at', 'desc')->paginate(5);
+        $jobs = Job::all();
+        $educations = Education::all();
+        $maritalStatus = MaritalStatus::all();
+        $jobType = JobType::all();
+        $workingArea = WorkingArea::all();
+        $workingAreaRegistrant = WorkingAreaRegistrant::all();
+        return view('admin.list-job-registrant', ['jobRegistrants'=>$jobRegistrants, 'jobs'=>$jobs, 'educations'=>$educations, 'maritalStatus'=>$maritalStatus, 'jobType'=>$jobType, 'workingArea'=>$workingArea, 'workingAreaRegistrant'=>$workingAreaRegistrant]);
     }
 
     public function job(){
@@ -88,6 +104,14 @@ class AdminController extends Controller
         $workingArea->delete();
     
         return redirect('/working-area');
+    }
+
+    public function downloadCV($id){
+        $jobRegistrant = JobRegistrant::findOrFail($id);
+
+        $fileName = public_path().'/cv_job_registrant/'.$jobRegistrant->CV_path_file;
+
+        return response()->download($fileName);
     }
 
     /**

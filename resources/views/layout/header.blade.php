@@ -87,6 +87,9 @@
             <a class="dropdown-item" href="{{ route('list-registrant') }}">
               List Registrant
             </a>
+            <a class="dropdown-item" href="{{ route('list-job-registrant') }}">
+              List Job Registrant
+            </a>
             <a class="dropdown-item" href="{{ url('news-article-form') }}">
               News and Articles Form
             </a>

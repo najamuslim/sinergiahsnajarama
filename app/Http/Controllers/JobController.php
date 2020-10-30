@@ -67,7 +67,8 @@ class JobController extends Controller
         $jobRegistrant->expected_salary = $req->expected_salary;
         $jobRegistrant->id_type_of_job = $req->id_type_of_job;
         $jobRegistrant->vacancy_information = $req->vacancy_information;
-        $jobRegistrant->last_GPA = $file_name;
+        $jobRegistrant->last_GPA = $req->last_GPA;
+        $jobRegistrant->CV_path_file = $file_name;
         $jobRegistrant->save();
 
         foreach ($req->working_area as $value) {
