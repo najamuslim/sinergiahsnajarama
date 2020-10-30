@@ -50,7 +50,9 @@
   <div class="card">
     <img class="card-img-top" src="{{ asset('images/wearehiring_teacher.png') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">WE ARE HIRING TEACHER</h5>
+      <a href="{{url('we-are-hiring-teacher')}}">
+        <h5 class="card-title" style="color: black;">WE ARE HIRING TEACHER</h5>
+      </a>
       <p class="card-text" style="color: gray">Jul 15, 2020 | Career, News</p>
       <p class="card-text" style="color: gray">Job Vacancies For History & Geography Teachers #Responsibilities : • Prepare, set and deliver lessons in line with Cambridge/ international curriculum. • To teach across the whole age range primary – secondary & A Level. • Establish classroom/ private,...</p>
     </div>

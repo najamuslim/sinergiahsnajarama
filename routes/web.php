@@ -74,6 +74,10 @@ Route::get('/news-article-form', function () {
     return view('pages/newsarticleform');
 });
 
+Route::get('/we-are-hiring-teacher', function () {
+    return view('pages/we-are-hiring');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
