@@ -36,10 +36,10 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 17px;">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="{{url('home')}}" style="margin-left: 35px;">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{url('home')}}" style="margin-left: 10px;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{url('about')}}" style="margin-left: 5px;">About</a>
@@ -62,11 +62,15 @@
       </li>
       
       <li class="nav-item" style="margin-left: 5px;">
-        <a class="nav-link" href="{{url('news')}}">News</a>
+        <a class="nav-link" href="{{ route('list-news') }}">News</a>
       </li>
       
       <li class="nav-item" style="margin-left: 5px;">
-        <a class="nav-link" href="{{url('article')}}">Article</a>
+        <a class="nav-link" href="{{ route('list-articles') }}">Article</a>
+      </li>
+
+      <li class="nav-item" style="margin-left: 5px;">
+        <a class="nav-link" href="{{ route('list-careers') }}">Career</a>
       </li>
       
       <li class="nav-item" style="margin-left: 5px;">

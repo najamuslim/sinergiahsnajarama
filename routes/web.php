@@ -90,7 +90,7 @@ Route::get('/job', 'AdminController@job')->name('job');
 
 Route::delete('/job-destroy/{id}', 'AdminController@jobDestroy')->name('job-destroy');
 
-Route::post('submit-working-area','AdminController@saveWorkingArea');
+Route::post('/submit-working-area','AdminController@saveWorkingArea');
 
 Route::get('/working-area', 'AdminController@workingArea')->name('working-area');
 
@@ -114,3 +114,6 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 Route::post('ckeditor/upload', 'CKEditorController@upload')->name('ckeditor.image-upload');
 Route::post('/save-content','CKEditorController@storeContent')->name('store.content');
 Route::get('/content/{id}','CKEditorController@showContent')->name('show.content');
+Route::get('/list-articles', 'CKEditorController@getArticles')->name('list-articles');
+Route::get('/list-news', 'CKEditorController@getNews')->name('list-news');
+Route::get('/list-careers', 'CKEditorController@getCareers')->name('list-careers');

@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Registration Form - Sinergia Homeschooling</title>
+    <title>Content Maker - Sinergia Homeschooling</title>
     <style>
         .headregistration{
             width: 100%;
@@ -49,6 +49,11 @@
 <div class="headregistration">
     <p style="margin-top: 45px; margin-left: 25px;">Create a new post</p>
 </div>
+@if(\Session::has('success'))
+    <div class="alert alert-success">
+        <p>{{\Session::get('success')}}</p>
+    </div>
+@endif
 <div class="container">
     <div class="form" style="text-align: center;">
     <form method="POST" action="{{ route('store.content') }}">
@@ -69,7 +74,7 @@
                     <option value="" disabled selected>Select category</option>
                     <option value="news">News</option>
                     <option value="article">Article</option>
-                    <option value="article">Career</option>
+                    <option value="career">Career</option>
                 </select>
             </p>
             <button id="btn-regis" type="submit" class="btn btn-outline-warning">Submit</button>

@@ -1,7 +1,7 @@
 @extends('layout.app')
 <head>
     <link rel="icon" href="{{ asset('images/logo sinergia no backg.png') }}"/>
-    <title>Home School Info and News - Sinergia Homeschooling</title>
+    <title>Home School Career - Sinergia Homeschooling</title>
     <style>
         .headadmission{
             width: 100%;
@@ -43,24 +43,26 @@
 
 
 <div class="headadmission">
-    <p style="margin-top: 45px; margin-left: 25px;">NEWS</p>
+    <p style="margin-top: 45px; margin-left: 25px;">CAREER</p>
 </div>
 
 <div class="card-columns">
-@foreach($news as $new)
+
+@foreach($careers as $career)
 
 <div class="card">
-<a href="{{ route('show.content', [$new->id]) }}">
-    <img class="card-img-top" src="{{ asset('images/news.jpg') }}" alt="Card image cap">
+<a href="{{ route('show.content', [$career->id]) }}">
+    <img class="card-img-top" src="{{ asset('images/career.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">{!! "$new->title" !!} </h5>
-      <p class="card-text" style="color: gray">{!! "$new->created_at" !!}| {!! "$new->category" !!}</p>
-      <p class="card-text" style="color: gray">{!! "$new->short_description" !!}</p>
+      <h5 class="card-title">{!! "$career->title" !!} </h5>
+      <p class="card-text" style="color: gray">{!! "$career->created_at" !!}| {!! "$career->category" !!}</p>
+      <p class="card-text" style="color: gray">{!! "$career->short_description" !!}</p>
     </div>
-    </a>
+</a>
 </div>
 
 @endforeach
+
 </div>
 
 
